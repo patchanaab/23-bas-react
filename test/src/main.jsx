@@ -44,11 +44,11 @@ const Main = () => {
                 element: <Home users={users} addUser={addUser} />,
               },
               {
-                path: "user",
+                path: "/user",
                 element: <UserComponent users={users} />,
               },
               {
-                path: "admin",
+                path: "/admin",
                 element: <AdminComponent users={users} addUser={addUser} deleteUser={deleteUser} />,
               },
             ],
